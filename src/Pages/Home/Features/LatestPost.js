@@ -25,47 +25,49 @@ import AuthorPic9 from '../../../Assets/Images/HomePageImgaes/a-author9.png'
 const LatestPost = () => {
     return (
         <div>
-            <Container>
+            <div className="container-xs container-sm container-md container-lg">
                 <h2>Latest Post</h2>
-            </Container>
-            <Container>
-                <Row >
-                    <Col className="md-4" >
+            </div>
+            <div className="container-xs container-sm container-md container-lg ">
+                <div className="row">
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
                         <PostCard PostPic={PostPic1} AuthorPic={AuthorPic1} />
-                    </Col>
-                    <Col className="md-4" >
+                    </div>
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
                         <PostCard PostPic={PostPic2} AuthorPic={AuthorPic2} />
-                    </Col>
-                    <Col className="md-4" >
+                    </div>
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
                         <PostCard PostPic={PostPic3} AuthorPic={AuthorPic3} />
-                    </Col>
-                </Row>
-                <Row >
-                    <Col className="md-4" >
-                        <PostCard PostPic={PostPic4} AuthorPic={AuthorPic4} />
-                    </Col>
-                    <Col className="md-4" >
-                        <PostCard PostPic={PostPic5} AuthorPic={AuthorPic5} />
-                    </Col>
-                    <Col className="md-4" >
-                        <PostCard PostPic={PostPic6} AuthorPic={AuthorPic6} />
-                    </Col>
-                </Row>
-                <Row >
-                    <Col className="md-4" >
-                        <PostCard PostPic={PostPic7} AuthorPic={AuthorPic7} />
-                    </Col>
-                    <Col className="md-4" >
-                        <PostCard PostPic={PostPic8} AuthorPic={AuthorPic8} />
-                    </Col>
-                    <Col className="md-4" >
-                        <PostCard PostPic={PostPic9} AuthorPic={AuthorPic9} />
-                    </Col>
-                </Row>
-                <div className="ViewPosts my-5 text-center">
-                    <h4>View All Posts</h4>
+                    </div>
                 </div>
-            </Container>
+                <div className="row">
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
+                        <PostCard PostPic={PostPic4} AuthorPic={AuthorPic4} />
+                    </div>
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
+                        <PostCard PostPic={PostPic5} AuthorPic={AuthorPic5} />
+                    </div>
+                    <div className="col xs=“1“ sm=“2“ md=“3“ " >
+                        <PostCard PostPic={PostPic6} AuthorPic={AuthorPic6} />
+                    </div>
+
+                </div>
+                <div className="row">
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
+                        <PostCard PostPic={PostPic7} AuthorPic={AuthorPic7} />
+                    </div>
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
+                        <PostCard PostPic={PostPic8} AuthorPic={AuthorPic8} />
+                    </div>
+                    <div className="col xs=“1“ sm=“2“ md=“3“ ">
+                        <PostCard PostPic={PostPic9} AuthorPic={AuthorPic9} />
+                    </div>
+                </div>
+            </div>
+            <div className="ViewPosts my-5 text-center">
+                <h4>View All Posts</h4>
+            </div>
+
         </div >
     )
 }

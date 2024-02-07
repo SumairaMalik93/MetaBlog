@@ -7,12 +7,12 @@ import AuthorPic from '../../../Assets/Images/HomePageImgaes/a-author2.png'
 
 const Title = () => {
     return (
-        <div className="container mb-5">
+        <div className="container-sm container-md container-lg  mb-5">
             <div className="TitleImage">
                 <img src={TitleImg} height={500} width={1100} alt="" />
             </div>
             <div className="TitleText">
-                <Card className="container">
+                <Card className="container-sm container-md container-lg">
                     <CardBody>
                         <div className="w-25 ">
                             <Button color="primary" variant="primary">Technology</Button>
