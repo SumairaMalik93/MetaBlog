@@ -1,12 +1,13 @@
 import React from 'react'
-import TitleImg from '../../../Assets/Images/HomePageImgaes/Image.png'
+import TitleImg from '../../../Assets/Images/Image.png'
 import '../style.css'
 import { Card, CardBody, CardTitle } from "reactstrap";
 import { Button } from "reactstrap";
-import AuthorPic from '../../../Assets/Images/HomePageImgaes/a-author2.png'
+import AuthorPic from '../../../Assets/Images/a-author2.png'
 
 const Title = () => {
     return (
+
         <div className="container-sm container-md container-lg  mb-5">
             <div className="TitleImage">
                 <img src={TitleImg} height={500} width={1100} alt="" />

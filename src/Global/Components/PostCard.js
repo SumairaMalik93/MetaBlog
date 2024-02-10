@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Card, CardTitle } from "reactstrap";
+import '../../Style/style.css'
 
 
 const PostCard = ({ PostPic, AuthorPic }) => {
@@ -8,7 +9,7 @@ const PostCard = ({ PostPic, AuthorPic }) => {
             <Card>
                 <Container>
                     <Row className="my-2">
-                        <img src={PostPic} alt="Card" />
+                        <img src={PostPic} alt="Card" className="PostCardImage" />
                     </Row>
                     <Container className="my-3">
                         <Row>

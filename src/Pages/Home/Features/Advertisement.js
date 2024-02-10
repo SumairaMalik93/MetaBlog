@@ -7,11 +7,15 @@ const Advertisement = () => {
         <div>
             <div className="Advertisement container text-center my-5">
                 <center>
-                    <Card style={{ width: '35rem' }} >
-                        <small>Advertisement</small>
-                        <CardSubtitle className="CardSubtitle">You can place ads</CardSubtitle>
-                        <CardText className="CardText">750x100</CardText>
-                    </Card>
+
+                    <div style={{ width: '35rem', height: '6rem' }} class="card text-white bg-dark-subtle  mb-3 mt-5" >
+
+                        <div class="card-body" style={{ color: 'black' }}>
+                            <small>Advertisement</small>
+                            <h6 class="card-title">You can place ads</h6>
+                            <p class="card-text">750x100</p>
+                        </div>
+                    </div>
                 </center>
             </div>
         </div>
